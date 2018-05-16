@@ -1,0 +1,199 @@
+/*webkit vendors' keyframes*/
+@-webkit-keyframes slogan_effects_enter
+{
+	from{color:#527c11;}
+	to{color:#027ec1;}
+}
+
+@-webkit-keyframes slogan_effects_leave
+{
+	from{color:#027ec1;}
+	to{color:#527c11;}
+}
+
+@-webkit-keyframes nav_effects_enter
+{
+	from{color:#fff;}
+	to{color:#141414;}
+}
+
+@-webkit-keyframes nav_effects_leave
+{
+	from{color:#141414;}
+	to{color:#fff;}
+}
+
+@-webkit-keyframes slide_in
+{
+	from
+	{
+		-webkit-transform:translate3d(0%, 100%, 0);
+		/*opacity:0;*/
+	}
+	to
+	{
+		-webkit-transform:translate3d(0%, 0%, 0);
+		opacity:1;/*0.7*/
+	}
+}
+
+@-webkit-keyframes slide_out
+{
+	from
+	{
+		-webkit-transform:translate3d(0%, 0%, 0);
+		opacity:0.7;
+	}
+	to
+	{
+		-webkit-transform:translate3d(100%, 100%, 0);
+	}
+}
+
+@-webkit-keyframes fade
+{
+	from{opacity: 0.7;}
+	to{opacity: 0;display:none;}
+}
+
+@-webkit-keyframes slide_left
+{
+	from{-webkit-transform:translate3d(0%, 0%, 0);}
+	to{transform:translate3d(-100%,0,0);}
+}
+
+
+/*moz vendors' keyframes*/
+@-moz-keyframes slogan_effects_enter
+{
+	from{color:#527c11;}
+	to{color:#027ec1;}
+}
+
+@-moz-keyframes slogan_effects_leave
+{
+	from{color:#027ec1;}
+	to{color:#527c11;}
+}
+
+@-moz-keyframes nav_effects_enter
+{
+	from{color:#fff;}
+	to{color:#141414;}
+}
+
+@-moz-keyframes nav_effects_leave
+{
+	from{color:#141414;}
+	to{color:#fff;}
+}
+
+@-moz-keyframes slide_in
+{
+	from
+	{
+		/*-moz-transform:translate3d(100%, 0, 100%);*/
+		-moz-transform:translate3d(0%, 100%, 0);
+		/*opacity:0;*/
+	}
+	to
+	{
+		-moz-transform:translate3d(0%, 0%, 0);
+		opacity:1;/*0.7*/
+	}
+}
+
+@-moz-keyframes slide_out
+{
+	from
+	{
+		-moz-transform:translate3d(0%, 0%, 0);
+		opacity:0.7;
+	}
+	to
+	{
+		-moz-transform:translate3d(100%, 100%, 0);
+		/*opacity:0;*/
+	}
+}
+
+@-moz-keyframes fade
+{
+	from{opacity: 0.7;}
+	to{opacity: 0;display:none;}
+}
+
+@-moz-keyframes slide_left
+{
+	from{-moz-transform:translate3d(0%, 0%, 0);}
+	to{-moz-transform:translate3d(-100%,0,0);}
+}
+
+
+
+/*default vendors' keyframes*/
+@keyframes slogan_effects_enter
+{
+	from{color:#527c11;}
+	to{color:#027ec1;}
+}
+
+@keyframes slogan_effects_leave
+{
+	from{color:#027ec1;}
+	to{color:#527c11;}
+}
+
+@keyframes nav_effects_enter
+{
+	from{color:#fff;}
+	to{color:#141414;}
+}
+
+@keyframes nav_effects_leave
+{
+	from{color:#141414;}
+	to{color:#fff;}
+}
+
+@keyframes slide_in
+{
+	from
+	{
+		transform:translate3d(0%, 100%, 0);
+		/*opacity:0;*/
+	}
+	to
+	{
+		transform:translate3d(0%, 0%, 0);
+		opacity:.6;/*0.7*/
+		z-index:-20;
+	}
+}
+
+@keyframes slide_out
+{
+	from
+	{
+		transform:translate3d(0%, 0%, 0);
+		opacity:0.7;
+	}
+	to
+	{
+		transform:translate3d(100%, 100%, 0);
+		/*opacity:0;*/
+	}
+}
+
+@keyframes fade
+{
+	from{opacity: 0.7;}
+	to{opacity: 0;}
+}
+
+@keyframes slide_left
+{
+	from{transform:translate3d(0%, 0%, 0);}
+	to{transform:translate3d(-100%,0,0);}
+}
+

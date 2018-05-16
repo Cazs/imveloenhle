@@ -1,0 +1,84 @@
+@media (max-width:1000px)
+{
+	html
+	{
+		overflow-x:hidden;
+	}
+	
+	#temp_logo
+	{
+		width:95%;
+		height:20%;
+	}
+	
+	#logo
+	{
+		width:95%;
+		height:70%;
+	}
+	
+	#secondary_nav  ul li a
+	{
+		font-size:12pt;
+	}
+	
+	nav ul li a
+	{
+		font-size:14pt;
+	}
+	
+	#slogan
+	{
+		margin-top:50%;
+		font-size: 22pt;
+	}
+	
+	.img_holder img
+	{
+		width:300%;
+	}
+	
+	.inner_cont
+	{
+		width:100%;
+		overflow-y:scroll;
+		overflow-x:hidden;
+		height:100%;
+		margin:auto;
+	}
+	
+	#form
+	{
+		width:100%;
+		margin:auto;
+	}
+	
+	#leaf2
+	{
+		width:40%;
+		height:10%;
+		margin-top:40%;
+	}
+	
+	#first
+	{
+		background-size: 140% 120%;
+	}
+	
+	#btn-enter 
+	{
+		margin-top:25%;
+		width:70%;
+	}
+	
+	#leaf
+	{
+		width:40%;
+		margin-top:25%;
+	}
+	
+	#footer_logo
+	{
+		width:90%;
+	}
+}
